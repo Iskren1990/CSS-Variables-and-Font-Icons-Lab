@@ -1,0 +1,23 @@
+html {
+    font-size: var(--font-size, 18px);
+    line-height: var(--font-line-height, 1.5);
+    font-family: var(--font-family-main, Verdana, sans-serif);
+}
+
+body, form, input, textarea, option, select, button {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: var(--layout-padding-b, 1.5em);
+}
+
+ul, ol {
+    padding-left: 2.5em;
+}
+
+i {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
